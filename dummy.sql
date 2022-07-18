@@ -8,10 +8,25 @@ SET PAGESIZE 100
 SET ECHO ON
  
 -- Create a database user as RAS administrator
-connect sys/password as sysdba
+conNECT sys/password 
+as sysdba
 grant dba, xs_session_admin to rasadm identified by rasadm;
  
-pause;
+pause;;;;
+;
+
+
+
+
+
+
+
+
+
+
+/* hello */
+                   Select * from 
+                                                 MagicalNonExistantDb
  
 ----------------------------------------------------------------------
 --  Introduction
